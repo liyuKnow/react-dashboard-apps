@@ -2,6 +2,6 @@
 
 A simple dashboard design with tailwind and react.
 
-### `react` ### `tailwind` ### `UI`
+### `react`  `tailwind`  `UI`
 
 
