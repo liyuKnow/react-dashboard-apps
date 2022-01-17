@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Badge from './Badge'
-import { darkThemeColor } from '../utils/index'
+import { darkThemeColor } from '../utils/index';
+import { RiHomeLine, RiFileCopyLine } from "react-icons/ri";
+import { FaWallet } from "react-icons/fa";
+import { AiOutlinePieChart } from "react-icons/ai";
 
 
 const Sidebar = () => {
@@ -16,7 +19,27 @@ const Sidebar = () => {
             </ProfileContainer>
             <LinksContainer>
                 <Links>
+                    <Link>
+                        <RiHomeLine />
+                        <h3>Dashboard</h3>
+                    </Link>
+                    <Link>
+                        <RiFileCopyLine />
+                        <h3>Projects</h3>
+                    </Link>
+                    <Link>
+                        <FaWallet />
+                        <h3>Invoices</h3>
+                    </Link>
+                    <Link>
+                        <AiOutlinePieChart />
+                        <h3>Reports</h3>
+                    </Link>
                 </Links>
+                <ContactContainer>
+                    <span>Having troubles?</span>
+                    <a href="#">Contact us </a>
+                </ContactContainer>
             </LinksContainer>
         </Container>
     )
@@ -84,7 +107,7 @@ const Link = styled.li`
   }
   svg {
     font-size: 1.1rem;
-    margin-top: 3%;
+    margin-top: 2%;
   }
 `;
 
