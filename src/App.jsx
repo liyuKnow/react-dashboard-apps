@@ -1,9 +1,18 @@
 import React from 'react';
+import SideBar from './components/sideBar/SideBar';
 import TopBar from './components/topBar/TopBar';
+import './app.css';
+import Home from './pages/home/Home';
 
 const App = () => {
     return (
-        <TopBar />
+        <div className="div">
+            <TopBar />
+            <div className="container">
+                <SideBar />
+                <Home />
+            </div>
+        </div>
     );
 };
 

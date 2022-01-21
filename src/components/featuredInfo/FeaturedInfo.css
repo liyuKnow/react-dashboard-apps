@@ -1,0 +1,56 @@
+.featured {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-item {
+    flex: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.featured-item:hover {
+    background-color: #c7ecc7;
+    transform: translate(0px, -5px);
+    /* -webkit-box-shadow: 0px 0px 15px -15px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75); */
+}
+
+.featured-title {
+    font-size: 20px;
+    color: #f25757;
+}
+
+.featured-money-container {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.featured-money{
+    font-size: 30px;
+    font-weight: 600;
+}
+.featured-money-rate {
+    display: flex;
+    /* align-items: baseline !important; */
+    align-items: center;
+    margin-left: 10px;
+}
+.money-rate-icon{
+    margin-left: 5px;
+}
+.money-rate-icon.up{
+    color: #1e8f1e;
+}
+.money-rate-icon.down{
+    color: #f71e1e;
+}
+.featured-sub {
+    font-size: 14px;
+    color: #8e8e8e;
+}
