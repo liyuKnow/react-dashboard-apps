@@ -41,7 +41,7 @@
 }
 
 .sidebar-list-item.active, .sidebar-list-item:hover {
-    background-color: rgb(84, 187, 225);
+    background-color: #54bbe1;
     color: #fff;
 }
 
