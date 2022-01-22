@@ -1,0 +1,71 @@
+.widget-sm {
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.widget-sm-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.widget-sm-list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.widget-sm-list-item {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.widget-sm-list-item-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+.widget-sm-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.widget-sm-list-username{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.widget-sm-user-job-title {
+    font-size: 12px;
+    color: #8c8c8c;
+}
+.widget-sm-button {
+    border: none;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 7px 10px;
+    /* background-color: #00a8ff; */
+    background-color: #73c2e9;
+    cursor: pointer;
+}
+
+.widget-sm-button:hover {
+    background-color: #00a8ff;
+    color: #fff;
+}
+
+.widget-sm-button-icon{
+    font-size: 16px!important;
+}
+.widget-sm-button-text {
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 3px;
+}

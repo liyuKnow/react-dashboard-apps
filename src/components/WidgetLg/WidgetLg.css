@@ -1,3 +1,79 @@
 .widget-lg {
-    
+    flex: 2; 
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.widget-lg-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.widget-lg-table{
+    width: 100%;
+    border-spacing: 20px;
+}
+
+/* .widget-lg-table-row{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    padding: 10px;
+} */
+
+.widget-lg-table-head{
+    font-weight: 600;
+    text-align: left;
+    padding: 5px;
+}
+
+.widget-lg-user{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.widget-lg-user-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.widget-lg-date, .widget-lg-amount {
+    font-weight: 300;
+} 
+
+.widget-lg-status {
+
+}
+
+.widget-lg-button{
+    border: none;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px 7px;
+    cursor: pointer;
+}
+
+.widget-lg-button.approved {
+    background-color: #e5faf2;
+    color: #3bb077;
+}
+
+.widget-lg-button.pending {
+    background-color: #fff0f1;
+    color: #d95087;
+}
+
+.widget-lg-button.declined {
+    background-color: #ebf1fe;
+    color: #2a7ade;
 }
