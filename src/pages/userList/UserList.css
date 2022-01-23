@@ -1,3 +1,53 @@
 .user-list{
     flex: 4;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.user-list-username-column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-list-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.user-list-edit {
+    border:none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #fff ;
+    background-color: #3bb077;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    /* color: #1a1818 ; */
+}
+
+.user-list-edit:hover {
+    background-color: #3ebce2;
+    color: #d8e7e9;
+}
+
+.user-list-delete{
+    font-size: 1.5em !important;
+    border-radius: 10px;
+    color: #f85151;
+    cursor: pointer;
+}
+
+.user-list-delete:hover{
+    background-color: #3ebce2;
+    color: #d8e7e9;
 }

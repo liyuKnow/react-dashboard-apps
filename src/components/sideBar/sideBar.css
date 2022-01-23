@@ -31,7 +31,14 @@
     margin: 0;
 }
 
-.sidebar-list-item {
+.link {
+    color: rgb(78, 82, 83);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sidebar-list-item  {
     padding: 5px;
     margin-bottom: 4px;
     display: flex;

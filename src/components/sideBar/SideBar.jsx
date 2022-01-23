@@ -1,6 +1,7 @@
 import { AttachMoney, ChatBubbleOutline, DynamicFeed, Home, LineStyle, MailOutline, PermIdentity, Report, Storefront, Timeline, TrendingUp, WorkOutline } from '@material-ui/icons';
 import React from 'react';
 import './sideBar.css';
+import { Link } from 'react-router-dom';
 
 const SideBar = () => {
     return (
@@ -11,10 +12,12 @@ const SideBar = () => {
                         Dashboard
                     </h3>
                     <ul className="sidebar-list">
-                        <li className="sidebar-list-item active">
-                            <LineStyle className="sidebar-list-icon" />
-                            <span className="sidebar-list-title">Home</span>
-                        </li>
+                        <Link to="/" className="link">
+                            <li className="sidebar-list-item active">
+                                <LineStyle className="sidebar-list-icon" />
+                                <span className="sidebar-list-title">Home</span>
+                            </li>
+                        </Link>
                         <li className="sidebar-list-item">
                             <Timeline className="sidebar-list-icon" />
                             <span className="sidebar-list-title">Analytics</span>
@@ -28,10 +31,12 @@ const SideBar = () => {
                         Quick Menu
                     </h3>
                     <ul className="sidebar-list">
-                        <li className="sidebar-list-item">
-                            <PermIdentity className="sidebar-list-icon" />
-                            <span className="sidebar-list-title">Users</span>
-                        </li>
+                        <Link to="users" className="link">
+                            <li className="sidebar-list-item">
+                                <PermIdentity className="sidebar-list-icon" />
+                                <span className="sidebar-list-title">Users</span>
+                            </li>
+                        </Link>
                         <li className="sidebar-list-item">
                             <Storefront className="sidebar-list-icon" />
                             <span className="sidebar-list-title">Products</span>

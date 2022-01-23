@@ -1,0 +1,77 @@
+.user {
+    flex: 4;
+    padding: 20px;  
+}
+
+.user-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-title {
+    /* font-size: 1.5em;
+    font-weight: bold; */
+}
+
+.add-user-btn {
+    background-color: #00a8ff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.user-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.user-show{
+    flex:1;
+    padding: 20px;
+    margin-right: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.user-show-top {
+    display: flex;
+    align-items: center;
+}
+
+.user-show-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.user-show-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-show-username {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.user-show-job{
+    font-size: 1em;
+    color: #999;
+}
+
+.user-show-bottom {
+    margin-top: 20px;
+}
+
+.user-update {
+    flex:2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
