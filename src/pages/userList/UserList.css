@@ -30,11 +30,6 @@
     cursor: pointer;
 }
 
-.link {
-    text-decoration: none;
-    /* color: #1a1818 ; */
-}
-
 .user-list-edit:hover {
     background-color: #3ebce2;
     color: #d8e7e9;

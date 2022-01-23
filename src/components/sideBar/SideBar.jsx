@@ -37,10 +37,12 @@ const SideBar = () => {
                                 <span className="sidebar-list-title">Users</span>
                             </li>
                         </Link>
-                        <li className="sidebar-list-item">
-                            <Storefront className="sidebar-list-icon" />
-                            <span className="sidebar-list-title">Products</span>
-                        </li>
+                        <Link to="products" className="link">
+                            <li className="sidebar-list-item">
+                                <Storefront className="sidebar-list-icon" />
+                                <span className="sidebar-list-title">Products</span>
+                            </li>
+                        </Link>
                         <li className="sidebar-list-item">
                             <AttachMoney className="sidebar-list-icon" />
                             <span className="sidebar-list-title">Transactions</span>
